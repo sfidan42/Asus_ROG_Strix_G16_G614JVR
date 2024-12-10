@@ -7,7 +7,7 @@
 ## Fixing it:
 
 1. Run:
-    - $ ```sudo apt install acpica-tools````
+    - $ ```sudo apt install acpica-tools```
 2. Run:
     - $ ```iasl -tc cirrus_ssdt_patch.dsl```
     - $ ```mkdir -p kernel/firmware/acpi```
