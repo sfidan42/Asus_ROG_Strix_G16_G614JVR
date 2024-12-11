@@ -28,8 +28,11 @@
 # Windows 11 ISO contains a file larger than 4GB, problem with FAT32 Bootable USB drive preparation
 
 1. Install:
-    - sudo apt install wimtools
-2. Convert big file into small ones
-    - wimlib-imagex split ./install.wim ./install.swm 3500
+    - $ ```sudo apt install wimtools```
+2. Convert:
+    - $ ```wimlib-imagex split ./install.wim ./install.swm 3500```
+3. Delete:
+    - $ ```rm install.wim```
+4. Prepare the USB
 
 # Done
