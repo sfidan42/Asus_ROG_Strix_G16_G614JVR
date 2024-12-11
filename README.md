@@ -24,3 +24,12 @@
 5. Reboot
 
 # Sound Now Working! :)
+
+# Windows 11 ISO contains a file larger than 4GB, problem with FAT32 Bootable USB drive preparation
+
+1. Install:
+    - sudo apt install wimtools
+2. Convert big file into small ones
+    - wimlib-imagex split ./install.wim ./install.swm 3500
+
+# Done
