@@ -21,6 +21,7 @@
     - Insert ```GRUB_EARLY_INITRD_LINUX_CUSTOM="patched_cirrus_acpi.cpio"```
 4. Run:
     - $ ```sudo grub-mkconfig```
+    - $ ```sudo update-grub```
 5. Reboot
 
 # Sound Now Working! :)
